@@ -18,6 +18,7 @@ const SuccessModal: React.FC<SuccessModalProps> = ( { isOpen, onClose } ) => {
 				className="relative z-50"
 				onClose={ onClose }>
 				<Transition
+					show={ isOpen }
 					as={ Fragment }
 					enter="ease-out duration-300"
 					enterFrom="opacity-0"
@@ -35,6 +36,7 @@ const SuccessModal: React.FC<SuccessModalProps> = ( { isOpen, onClose } ) => {
 					<div
 						className="flex min-h-full items-center justify-center p-4 text-center">
 						<Transition
+							show={ isOpen }
 							as={ Fragment }
 							enter="ease-out duration-300"
 							enterFrom="opacity-0 scale-95"

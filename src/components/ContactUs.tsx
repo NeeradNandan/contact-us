@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 import SuccessModal from "./SucessModal";
-
+import { submitForm } from "../api/submitApi.ts";
 // ############################################################################
 // ## 1. Contact Information Sub-Component (Left Side)
 // ############################################################################
@@ -26,7 +26,7 @@ const ContactInfo = () => {
 				Let's
 				<span
 					className="text-blue-600">
-					Secure Your Business
+					&nbsp;Secure Your Business
 				</span>
 			</motion.h1>
 			<motion.p
@@ -79,7 +79,7 @@ const ContactInfo = () => {
 // ############################################################################
 // ## 2. Contact Form Sub-Component (Right Side)
 // ############################################################################
-interface FormData {
+export interface FormData {
 	firstName: string;
 	lastName: string;
 	email: string;
@@ -89,7 +89,7 @@ interface FormData {
 	acceptTerms: boolean;
 }
 
-const ContactForm = () => {
+export const ContactForm = () => {
 	const [ formData, setFormData ] = useState<FormData>(
 		{
           firstName: '',
@@ -143,7 +143,7 @@ const ContactForm = () => {
 		setIsSubmitting( true );
 		
 		// Simulate an API call
-		await new Promise( resolve => setTimeout( resolve, 2000 ) );
+		await submitForm( formData );
 		
 		setIsSubmitting( false );
 		console.log( 'Form data submitted:', formData );
@@ -290,7 +290,7 @@ const ContactForm = () => {
 						<a
 							href="#"
 							className="text-blue-600 hover:underline">
-							Terms
+							&nbsp;Terms
 						</a>
 					</label>
 				</div>
