@@ -15,18 +15,19 @@ const ErrorPage: React.FC = () => {
 						className="h-8 w-auto"/>
 				</a>
 			</header>
-			<main>
+			<main className="flex-1 flex flex-col justify-center items-center max-w-lg mx-auto">
 				<h1
-					className="text-8xl font-extrabold text-blue-600 tracking-tighter">
+					className="text-6xl sm:text-8xl font-extrabold text-blue-600 tracking-tighter">
 					404
 				</h1>
 				<h2
-					className="mt-4 text-3xl sm:text-4xl font-bold text-gray-800">
+					className="mt-4 text-2xl sm:text-3xl md:text-4xl font-bold text-gray-800">
 					Page Not Found
 				</h2>
 				<p
-					className="mt-4 text-lg text-gray-600 max-w-md mx-auto">
-					Sorry, we couldn't find the page you’re looking for. It might have been moved, deleted, or maybe you just mistyped the URL.
+					className="mt-4 text-base sm:text-lg text-gray-600 max-w-md mx-auto leading-relaxed">
+					Sorry, we couldn't find the page you're looking for. It might have been moved, deleted, or maybe you
+					just mistyped the URL.
 				</p>
 				<a
 					href="/"
@@ -39,7 +40,7 @@ const ErrorPage: React.FC = () => {
 			</main>
 			
 			<footer
-				className="absolute bottom-0 p-6 text-gray-500 text-sm">
+				className="w-full p-4 sm:p-6 text-gray-500 text-xs sm:text-sm text-center mt-8">
 				&copy; 2025 Security Council. All rights reserved.
 			</footer>
 		</div>
