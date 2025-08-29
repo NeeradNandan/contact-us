@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
 					</div>
 					
 					<div
-						className="flex flex-wrap justify-center md:justify-start space-x-6 sm:space-x-8">
+						className="grid grid-cols-2 md:flex md:flex-wrap justify-center gap-x-8 gap-y-2 text-center md:text-left">
 						{ footerNav.map( ( item ) =>
 							                 (
 												 <a
