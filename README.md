@@ -377,20 +377,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙋‍♂️ Support & Contact
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-email%40example.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:email@example.com)
-[![Phone](https://img.shields.io/badge/Phone-%2B1%20(555)%20000--0000-blue?style=for-the-badge&logo=phone&logoColor=white)](tel:+15550000000)
-[![Location](https://img.shields.io/badge/Location-Sydney%2C%20Australia-green?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com)
-
-### **Get Help**
-- 📖 [Documentation](https://your-docs-link.com)
-- 🐛 [Report Issues](https://github.com/your-repo/issues)
-- 💡 [Feature Requests](https://github.com/your-repo/issues/new?template=feature_request.md)
-- 💬 [Discussions](https://github.com/your-repo/discussions)
-
 </div>
 
 ---
@@ -401,7 +387,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Built with ❤️ using **React** • **TypeScript** • **Tailwind CSS**
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=your-repo.contact-us)
-[![GitHub stars](https://img.shields.io/github/stars/your-repo/contact-us?style=social)](https://github.com/your-repo/contact-us)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=NeeradNandan.contact-us)
+[![GitHub stars](https://img.shields.io/github/stars/NeeradNandan/contact-us?style=social)](https://github.com/NeeradNandan/contact-us)
 
 </div>
