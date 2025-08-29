@@ -5,7 +5,7 @@ import { FaArrowLeft } from 'react-icons/fa';
 const ErrorPage: React.FC = () => {
 	return (
 		<div
-			className="min-h-screen bg-slate-50 flex flex-col justify-center items-center text-center px-4">
+			className="min-h-screen bg-slate-50 flex flex-col justify-center items-center text-center px-4 py-8">
 			<header
 				className="absolute top-0 left-0 p-6">
 				<a
